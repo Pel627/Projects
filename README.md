@@ -1,76 +1,35 @@
-# Projects Repository
+# Password Strength Checker
 
-This repository is a collection of personal projects developed for learning, experimentation, and continuous improvement in programming and cybersecurity.
+A simple Python tool that evaluates the strength of a password and provides feedback to improve it.
 
-# Overview
+## Features
 
-The main purpose of this repository is to serve as a workspace where different ideas, tools, and concepts can be explored and tested. Each project included here represents a step forward in understanding core topics such as networking, scripting, automation, and security fundamentals.
+- Checks password length
+- Detects uppercase and lowercase letters
+- Verifies numbers and special characters
+- Provides feedback for improvement
 
-Rather than focusing on a single large application, this repository is designed to host multiple smaller projects. This approach allows for faster iteration, experimentation with new technologies, and a clearer demonstration of specific skills.
+## Usage
 
-# Objectives
+Run the script:
 
-Practice and improve programming skills
+python password_checker.py
 
-Experiment with new concepts and tools
+Enter a password when prompted.
 
-Build a solid foundation in cybersecurity and networking
+## Example
 
-Create a public portfolio of technical work
+Input:
+hola123
 
-Document progress over time
+Output:
+Weak password
+- Missing uppercase letters
+- Missing symbols
 
-# Contents
+## Disclaimer
 
-This repository may include projects such as:
-
-- Port scanners
-
-- Network scanners
-
-- Security-related scripts
-
-- Automation tools
-
-- Small utilities and experiments
-
-Each project is typically self-contained and may have its own documentation or usage instructions.
-
-# Philosophy
-
-The goal is not perfection, but progression.
-Some projects may be simple, experimental, or incomplete, and that is intentional. They reflect the learning process and the evolution of skills over time.
-
-# Usage
-
-Each project can be used independently.
-To run a specific project:
-
-- Navigate to the project folder
-
-- Read any included instructions
-
-- Execute the script using the appropriate environment (e.g., Python)
-
-# Disclaimer
-
-All projects in this repository are created for educational purposes only.
-They are intended to be used in controlled environments, such as personal machines, local networks, or authorized labs.
-
-Do not use these tools on systems or networks without proper permission.
-
-# Future Improvements
-
-This repository will continue to grow with:
-
-- More advanced cybersecurity tools
-
-- Better structured code
-
-- Improved documentation
-
-- Additional features and optimizations
-
+This project is for educational purposes only.
 # Author
 
 Personal project repository maintained as part of a continuous learning journey in programming and cybersecurity.
